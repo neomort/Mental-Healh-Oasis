@@ -8,6 +8,4 @@ radio.onclick = function(){
 
   console.log("radio clicked");
   panel.style.display = "block";
-  panel.style.visibility = "visible";
-  panel.style.opacity = "1";
 }
