@@ -1,3 +1,37 @@
-# Mental Health <3
+# Mental Health Oasis <3
 
+## Description
 
+This webpage was designed as an auditive safe space that allows the user to disconnect from the noise of life and instead focus on the sounds of nature. 
+
+## Process
+How did you go about implementing the concept?
+
+We first wrote down our ideas for the project in [this Google doc](https://docs.google.com/document/d/1tSty3hbhg3nNiqVSv99J-gym45X9ZM6kK7D3K42ZIqQ/edit?usp=sharing), where we wrote the script and sound files to be obtain (through recording or from the NYUAD sound library).
+
+We divided the tasks amongst the group members, however we all participated in the recordings. 
+
+### Recording (OR running around campus like carzy people)
+We went around campus recording different sounds that we deemed useful or that we could try to remix in order to create the audio we wanted. 
+
+### Images (OR why did I decided to draw so many trees? 😅 )
+
+This are some of the pictures we drew for the main page
+
+![alt text](/images/forestSmall.JPG)
+
+![alt text](/images/beachSmall.JPG)
+
+![alt text](/images/mountainSmall.JPG)
+
+![alt text](/images/parkSmall.JPG)
+
+### Webpage (OR )
+
+## Challenges
+- Recording some of the sounds was difficult because the boom mic had static. 
+- Also, we had to get very creative and touch a lot of weird stuff 
+- SVG's 
+- Oragnizing the audio was ok but time consuming 
+
+## Reflection
