@@ -112,7 +112,9 @@ hex.onmouseenter = function(){
   rooster.play();
   
 };
-
+rad.onmouseenter = function(){
+  rad.style.height = 120%;
+}
 
 
 

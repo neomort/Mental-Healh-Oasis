@@ -7,8 +7,8 @@ body {
   margin: 0;
   min-height: 100%;
   overflow: hidden;
-  background: url('../images/seamless-bg.png')rgba(199, 252, 226, .6); repeat 0 0;
-  background-blend-mode: overlay;
+  background: url('../images/seamless-bg.png')rgba(240, 250, 245, 0.5); repeat 0 0;
+background-blend-mode: overlay;
   /* background: radial-gradient(circle farthest-side at top right, transparent, #FFE194), radial-gradient(ellipse farthest-corner at 0% 200%, transparent, #ebc2ff) repeat 0 0; */
   animation: 30s linear 0s normal none infinite animate;
 }
@@ -193,7 +193,6 @@ display: inline-block;
   position: absolute;
   top: 0;
   z-index:1;
- 
 }
 
 svg {
@@ -203,11 +202,7 @@ svg {
 .logo {
   
   width: 200px;
-  height: 150px;
-}
-
-.logo:hover {
-  transform: scale(1.2);
+  height: 200px;
 }
 
 .rotate {

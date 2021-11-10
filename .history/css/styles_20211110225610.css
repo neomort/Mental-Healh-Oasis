@@ -207,7 +207,7 @@ svg {
 }
 
 .logo:hover {
-  transform: scale(1.2);
+  transform: scale(2);
 }
 
 .rotate {

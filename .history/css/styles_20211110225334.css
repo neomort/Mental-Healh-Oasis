@@ -206,10 +206,6 @@ svg {
   height: 150px;
 }
 
-.logo:hover {
-  transform: scale(1.2);
-}
-
 .rotate {
   animation: rotation 8s infinite linear;
 }

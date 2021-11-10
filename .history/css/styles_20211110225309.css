@@ -203,11 +203,7 @@ svg {
 .logo {
   
   width: 200px;
-  height: 150px;
-}
-
-.logo:hover {
-  transform: scale(1.2);
+  height: 200px;
 }
 
 .rotate {

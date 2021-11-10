@@ -5,18 +5,16 @@
 			vertical: true,
 			speed: 100, // In pixels per second
 			container: $(this).parent(),
-      bumpEdge: function () {},
-      hover: function () {}
+			bumpEdge: function () {}
     }, options);
     
     const synth = new Howl({
       src: ['./sounds/Extra/ow.mp3'],
       volume: 0.5
     });
-
-    
-
-  
+    rad.onmouseenter = function(){
+      
+    };
 		
 		return this.each(function () {
 			var containerWidth, containerHeight, elWidth, elHeight, move, getSizes,
@@ -63,9 +61,8 @@
 			}
 			if (settings.vertical) {
 				move.down();
-      }
-      
-      
+			}
+
       // Make that shit responsive!
       $(window).resize( function() {
         getSizes();
@@ -80,10 +77,9 @@ $(document).ready( function() {
 		speed: 300,
 		bumpEdge: function () {
       // play sound here???
-      ow.play();
+      synth.play();
 			var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
 			$('.marquee .logo').css('fill', newColor);
-    },
-   
+		}
 	});
 });
