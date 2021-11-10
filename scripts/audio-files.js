@@ -41,20 +41,24 @@ const sayConclusion = new Howl({
 //---------   SOUNDSCAPE  ------------
 
 // Forest soundscape
-
 const forestSound = new Howl({
   src: ['./sounds/Forest/Forest.mp3'],
   volume: 0.5
 });
 
 // Beach soundscape
-
+const beachSound = new Howl({
+  src: ['./sounds/Beach/Beach.mp3'],
+  volume: 0.5
+});
 
 // Mountain soundscape
-
+const mountainSound = new Howl({
+  src: ['./sounds/Mountains/Mountains.mp3'],
+  volume: 0.5
+});
 
 // Park soundscape
-
 const parkSound = new Howl({
   src: ['./sounds/Park/Park.mp3'],
   volume: 0.5
