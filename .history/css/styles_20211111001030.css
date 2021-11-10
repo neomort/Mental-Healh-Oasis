@@ -15,8 +15,7 @@ body {
 
 @keyframes animate {
 	from {background-position:0 0;}
-  to {background-position: 1000px 0;}
-  
+	to {background-position: 3000px 0;}
 }
 
 
@@ -120,7 +119,7 @@ display: inline-block;
 
 .column {
   flex: 50%;
-  padding-top:4%;
+  padding-top:5%;
   padding-left: 8%;
   padding-right: 8%
 }

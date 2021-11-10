@@ -15,8 +15,7 @@ body {
 
 @keyframes animate {
 	from {background-position:0 0;}
-  to {background-position: 1000px 0;}
-  
+	to {background-position: 3000px 0;}
 }
 
 
@@ -120,7 +119,7 @@ display: inline-block;
 
 .column {
   flex: 50%;
-  padding-top:4%;
+  padding-top:5%;
   padding-left: 8%;
   padding-right: 8%
 }
@@ -155,7 +154,8 @@ display: inline-block;
 .poly{
   content:"";
   display:block;
-  padding-top:86.6%;
+  /* padding-top:86.6%; */
+  /* margin: 25%; */
   background: url('../images/forestSmall.PNG') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;

@@ -15,8 +15,7 @@ body {
 
 @keyframes animate {
 	from {background-position:0 0;}
-  to {background-position: 1000px 0;}
-  
+	to {background-position: 3000px 0;}
 }
 
 
@@ -58,14 +57,14 @@ body {
 }
 
 .container img{
-  /* border-radius: 10px; */
+  border-radius: 10px;
   width: 100%;
   opacity: 100%;
   transition: 0.3s;
 }
 
 .container:hover {
-  /* position: relative; */
+  position: relative;
   text-align: center;
   opacity: 100%;
   transition: 0.3s;
@@ -120,9 +119,9 @@ display: inline-block;
 
 .column {
   flex: 50%;
-  padding-top:4%;
-  padding-left: 8%;
-  padding-right: 8%
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 1%
 }
 
 .column-2 {
@@ -144,24 +143,24 @@ display: inline-block;
   content:"";
   display:block;
   padding-top:86.6%;
-  background: url('../images/parkSmall.PNG') no-repeat center center;
+  background-image: url('../images/parkSmall.PNG');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    clip-path: polygon(0% 0%, 0% 80%, 100% 80%, 100% 0%);
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 }
 
-.poly{
+.poly::before {
   content:"";
   display:block;
   padding-top:86.6%;
-  background: url('../images/forestSmall.PNG') no-repeat center center;
+  background-image: url('../images/forestSmall.PNG');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    clip-path: polygon(0% 0%, 0% 80%, 100% 80%, 100% 0%);
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 
 }
 
@@ -169,25 +168,24 @@ display: inline-block;
   content:"";
   display:block;
   padding-top:86.6%;
-  background: url('../images/mountainSmall.PNG') no-repeat center center;
+  background-image: url('../images/mountainSmall.PNG');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    clip-path: polygon(0% 0%, 0% 80%, 100% 80%, 100% 0%);
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 }
 
 .star::before {
   content:"";
   display:block;
   padding-top:86.6%;
-  
-  background: url('../images/beachSmall.PNG') no-repeat center center;
+  background-image: url('../images/beachSmall.PNG');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    clip-path: polygon(0% 0%, 0% 80%, 100% 80%, 100% 0%);
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 }
 
 @keyframes bg-change {

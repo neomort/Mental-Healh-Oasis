@@ -10,13 +10,12 @@ body {
   background: url('../images/seamless-bg.png')rgba(199, 252, 226, .6); repeat 0 0;
   background-blend-mode: overlay;
   /* background: radial-gradient(circle farthest-side at top right, transparent, #FFE194), radial-gradient(ellipse farthest-corner at 0% 200%, transparent, #ebc2ff) repeat 0 0; */
-  animation: 30s linear 0s normal none infinite animate;
+  animation: 3s linear 0s normal none infinite animate;
 }
 
 @keyframes animate {
 	from {background-position:0 0;}
-  to {background-position: 1000px 0;}
-  
+	to {background-position: 300px 0;}
 }
 
 
