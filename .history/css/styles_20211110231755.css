@@ -142,7 +142,7 @@ display: inline-block;
   display:block;
   padding-top:86.6%;
   background-image: url('../images/parkSmall.JPG');
-    /* clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%); */
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 }
 
 .poly::before {
@@ -150,7 +150,7 @@ display: inline-block;
   display:block;
   padding-top:86.6%;
   background-image: url('../images/forestSmall.JPG');
-    /* clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%); */
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 
 }
 
@@ -159,7 +159,7 @@ display: inline-block;
   display:block;
   padding-top:86.6%;
   background-image: url('../images/mountainSmall.JPG');
-    /* clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%); */
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 }
 
 .star::before {
@@ -167,7 +167,7 @@ display: inline-block;
   display:block;
   padding-top:86.6%;
   background-image: url('../images/beachSmall.JPG');
-    /* clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%); */
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 }
 
 @keyframes bg-change {

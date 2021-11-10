@@ -83,7 +83,7 @@ const ow = new Howl({
   volume: 0.5
 });
 
-
+// these are the soundss for.... Narration
 const synth = new Howl({
   src: ['./sounds/Extra/synth.mp3'],
   volume: 0.5

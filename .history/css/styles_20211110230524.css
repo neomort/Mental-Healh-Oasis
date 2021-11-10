@@ -141,16 +141,20 @@ display: inline-block;
   content:"";
   display:block;
   padding-top:86.6%;
-  background-image: url('../images/parkSmall.JPG');
-    /* clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%); */
+  background-image: 
+		radial-gradient(circle farthest-side at top right, transparent, #B8DFD8), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #ffff00);
+		animation:bg-change 10s infinite;
+ clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
 .poly::before {
   content:"";
   display:block;
   padding-top:86.6%;
-  background-image: url('../images/forestSmall.JPG');
-    /* clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%); */
+  background-image: 
+		radial-gradient(circle farthest-side at top right, transparent, #0D64FF), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #ff0099);
+		animation:bg-change 10s infinite;
+ clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 
 }
 
@@ -158,16 +162,20 @@ display: inline-block;
   content:"";
   display:block;
   padding-top:86.6%;
-  background-image: url('../images/mountainSmall.JPG');
-    /* clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%); */
+  background-image: 
+		radial-gradient(circle farthest-side at top right, transparent, #943491), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #ffa200);
+		animation:bg-change 10s infinite;
+    clip-path: polygon(50% 0%, 50% 50%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 }
 
 .star::before {
   content:"";
   display:block;
   padding-top:86.6%;
-  background-image: url('../images/beachSmall.JPG');
-    /* clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%); */
+  background-image: 
+		radial-gradient(circle farthest-side at top right, transparent, #FFE194), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #aa00ff);
+		animation:bg-change 10s infinite;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
 
 @keyframes bg-change {
@@ -196,7 +204,6 @@ svg {
   
   width: 200px;
   height: 150px;
-  transition: 0.2s;
 }
 
 .logo:hover {
