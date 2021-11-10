@@ -1,44 +1,44 @@
 // short sounds
 const ow = new Howl({
-  src: ['./sounds/Extra/ow.mp3'],
+  src: ['./sounds/ow.mp3'],
   volume: 0.5
 });
 const synth = new Howl({
-  src: ['./sounds/Extra/synth.mp3'],
+  src: ['./sounds/synth.mp3'],
   volume: 0.5
 });
 const dog = new Howl({
-  src: ['./sounds/Park/dog.mp3'],
+  src: ['./sounds/dog.mp3'],
   volume: 0.5
 });
 const rooster = new Howl({
-  src: ['./sounds/Extra/rooster.mp3'],
+  src: ['./sounds/rooster.mp3'],
   volume: 0.5
 });
 
 // longer sounds
 
 const jingle = new Howl({
-  src: ['./sounds/Extra/jingle.mp3'],
+  src: ['./sounds/jingle.mp3'],
   volume: 0.5
 });
 const violet = new Howl({
-  src: ['./sounds/Extra/Violet.mp3'],
+  src: ['./sounds/Violet.mp3'],
   volume: 0.5
 });
 const free = new Howl({
-  src: ['./sounds/Extra/free.mp3'],
+  src: ['./sounds/free.mp3'],
   volume: 0.5
 });
 const paris = new Howl({
-  src: ['./sounds/Extra/paris.mp3'],
+  src: ['./sounds/paris.mp3'],
   volume: 0.5
 });
 
 // extra
 
 const titel = new Howl({
-  src: ['./sounds/Extra/Titel.mp3'],
+  src: ['./sounds/Titel.mp3'],
   volume: 0.5
 });
 
