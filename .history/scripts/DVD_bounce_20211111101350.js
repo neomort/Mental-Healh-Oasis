@@ -80,7 +80,7 @@ $(document).ready( function() {
 		speed: 300,
 		bumpEdge: function () {
       // play sound here???
-      bell.play();
+      ow.play();
 			var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
 			$('.marquee .logo').css('fill', newColor);
     },

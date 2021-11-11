@@ -25,17 +25,12 @@ function createTimedLink(element, callback, timeout){
   return false;
 }
 
-
+function myFunction(element) { 
+/* Block of code, with no 'return false'. */
+  window.location = element.href;
+ }
 
  const sayIntroduction = new Howl({
   src: ['./sounds/Narration/Narration_Introduction.mp3'],
   volume: 0.5
-});
-
-sayIntroduction.on('end', function(){
-  console.log('audio Finished!');
-  function myFunction(element) { 
-    /* Block of code, with no 'return false'. */
-      window.location = element.href;
-     }
 });

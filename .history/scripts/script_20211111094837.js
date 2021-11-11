@@ -7,9 +7,8 @@ let radio = document.getElementById('radio');
 var myVar;
 
 radio.onclick = function() {
-  myVar = setTimeout(displayFunction, 100000);
+  myVar = setTimeout(displayFunction, 3000);
   console.log("radio clicked");
-  sayIntroduction.play();
 }
 
 function displayFunction(){
@@ -25,17 +24,7 @@ function createTimedLink(element, callback, timeout){
   return false;
 }
 
-
-
- const sayIntroduction = new Howl({
-  src: ['./sounds/Narration/Narration_Introduction.mp3'],
-  volume: 0.5
-});
-
-sayIntroduction.on('end', function(){
-  console.log('audio Finished!');
-  function myFunction(element) { 
-    /* Block of code, with no 'return false'. */
-      window.location = element.href;
-     }
-});
+function myFunction(element) { 
+/* Block of code, with no 'return false'. */
+  window.location = element.href;
+ }
