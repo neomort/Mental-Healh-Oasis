@@ -26,7 +26,11 @@ At this point we had a very clear vision of where we were going, so we divided t
 
 ### Images (OR why did I decided to draw so many trees? 😅 )
 
-This are some of the pictures we drew for the main page
+We drew fours images as visual representations of the soundscapes and that were places as the background images of the pages the user can access. Additionally, we also created another four simpler and smaller images to use in the main page.
+
+For the interactive elements within each landscape, we created SVG files in order to trigger the sound effects. 
+
+These are some of the pictures we drew for the main page
 
 ![alt text](/images/forestSmall.JPG)
 
