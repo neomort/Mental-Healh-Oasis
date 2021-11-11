@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  position: absolute;
+  height: 90%;
+  bottom: 7.5%;
+  left: 10%;
+}
