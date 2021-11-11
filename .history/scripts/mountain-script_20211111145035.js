@@ -65,37 +65,12 @@ function displayFunction(){
 
 //---------   MOUNTAIN audio  ---------
 
-let birds = document.getElementById("birds");
-let rocks = document.getElementById("rocks");
-let wind = document.getElementById("wind");
-let waterfall = document.getElementById("waterfall");
+let jaguar = document.getElementById("jaguar");
+let guacamaya = document.getElementById("guacamaya");
+let bugs = document.getElementById("bugs");
+let rain = document.getElementById("rain");
 
-birds.onmouseenter = function(){
 
-  console.log("you hover on star");
- birdsFX.play();
- 
-  
-};
-rocks.onmouseenter = function(){
-
-  console.log("you hover on star");
-  rocksFX.play();
- 
-  
-};
-wind.onmouseenter = function(){
-
-  console.log("you hover on polygon");
-  whistlingwindFX.play();
-  
-};
-waterfall.onmouseenter = function(){
-
-  console.log("you hover on triangle");
-  waterfallFX.play();
-  
-};
 
 //  Birds
 const birdsFX = new Howl({

@@ -67,7 +67,7 @@ function displayFunction(){
 
 let birds = document.getElementById("birds");
 let rocks = document.getElementById("rocks");
-let wind = document.getElementById("wind");
+let whistlingwind = document.getElementById("whistlingwind");
 let waterfall = document.getElementById("waterfall");
 
 birds.onmouseenter = function(){
@@ -84,7 +84,7 @@ rocks.onmouseenter = function(){
  
   
 };
-wind.onmouseenter = function(){
+whistlingwind.onmouseenter = function(){
 
   console.log("you hover on polygon");
   whistlingwindFX.play();
