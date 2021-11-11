@@ -4,7 +4,7 @@ let still = document.getElementById('stationary');
 let float = document.getElementById('floating');
 
 const sayIntroduction = new Howl({
-  src: ['./sounds/Narration/Narration_Mountain.mp3'],
+  src: ['./sounds/Narration/Narration_Park.mp3'],
   volume: 0.5,
   onend: function() {
     console.log('audio Finished!');
@@ -15,8 +15,8 @@ const sayIntroduction = new Howl({
 
 
 const parkSound = new Howl({
-  src: ['./sounds/Mountains/Mountains.mp3'],
-  volume: 0.3,
+  src: ['./sounds/Park/Park.mp3'],
+  volume: 0.5,
   loop: true
 
 });
@@ -63,25 +63,57 @@ function displayFunction(){
   
 }
 
-//---------   MOUNTAIN audio  ---------
+let swing = document.getElementBy('swing');
+let hopscotch = document.getElementById('hopscotch');
+let playing = document.getElementById('playing');
 
-//  Birds
-const birdsFX = new Howl({
-  src: ['./sounds/Mountains/Birds.mp3'],
+
+swing.onmouseenter = function(){
+
+  console.log("you hover on star");
+  swingFX.play();
+  forest.stop();
+  park.stop();
+  mountain.stop();
+  
+};
+hopscotch.onmouseenter = function(){
+
+  console.log("you hover on polygon");
+  hopscotchFX.play();
+  mountain.stop();
+  park.stop();
+  beach.stop();
+};
+playing.onmouseenter = function(){
+
+  console.log("you hover on triangle");
+  childrenFX.play();
+  mountain.stop();
+  forest.stop();
+  beach.stop();
+};
+
+
+//---------   PARK audio  -------------
+
+//  DOG
+const dog = new Howl({
+  src: ['./sounds/Park/dog.mp3'],
   volume: 0.5
 });
-//  Walking Over Rocks
-const walkingoverrocksFX = new Howl({
-  src: ['./sounds/Mountains/Walking Over Rocks.mp3'],
-  volume: 0.5
+// Children
+  const childrenFX = new Howl({
+    src: ['./sounds/Park/Children.mp3'],
+    volume: 0.5
 });
-//  Waterfall
-const waterfallFX = new Howl({
-  src: ['./sounds/Mountains/Waterfall.mp3'],
-  volume: 0.5
+// Hopscotch
+  const hopscotchFX = new Howl({
+    src: ['./sounds/Park/Hopscotch.mp3'],
+    volume: 0.5
 });
-//  Whistling Wind
-const whistlingwindFX = new Howl({
-  src: ['./sounds/Mountains/Whistling Wind.mp3'],
-  volume: 0.5
+// Swings
+  const swingFX = new Howl({
+    src: ['./sounds/Park/Swings.mp3'],
+    volume: 0.5
 });

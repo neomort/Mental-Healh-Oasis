@@ -112,17 +112,18 @@ const dog = new Howl({
     volume: 0.5
 });
 
-
+$(window).load(function () {
 
   //alert("Document loaded, including graphics and embedded documents (like SVG)");
   var a = document.getElementById("park-svg");
 
   //get the inner DOM of alpha.svg
   var svgDoc = a.contentDocument;
-  console.log($`svgDoc`);
+
   var swing = svgDoc.getElementByID('swing');
   var hopscotch = svgDoc.getElementByID('hopscotch');
   var playing = svgDoc.getElementByID('playing');
   swing.addEventListener("onmouseenter", function(){  swingFX.play(); console.log("you hover on swing");}, false);
   hopscotch.addEventListener("onmouseenter", function(){ hopscotchFX.play(); console.log("you hover on hop");}, false);
   playing.addEventListener("onmouseenter", function(){ childrenFX.play(); console.log("you hover on kid");}, false);
+});

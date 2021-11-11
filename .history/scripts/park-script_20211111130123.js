@@ -112,7 +112,7 @@ const dog = new Howl({
     volume: 0.5
 });
 
-
+$(window).load(function () {
 
   //alert("Document loaded, including graphics and embedded documents (like SVG)");
   var a = document.getElementById("park-svg");
@@ -126,3 +126,4 @@ const dog = new Howl({
   swing.addEventListener("onmouseenter", function(){  swingFX.play(); console.log("you hover on swing");}, false);
   hopscotch.addEventListener("onmouseenter", function(){ hopscotchFX.play(); console.log("you hover on hop");}, false);
   playing.addEventListener("onmouseenter", function(){ childrenFX.play(); console.log("you hover on kid");}, false);
+});

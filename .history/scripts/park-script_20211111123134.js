@@ -4,7 +4,7 @@ let still = document.getElementById('stationary');
 let float = document.getElementById('floating');
 
 const sayIntroduction = new Howl({
-  src: ['./sounds/Narration/Narration_Mountain.mp3'],
+  src: ['./sounds/Narration/Narration_Park.mp3'],
   volume: 0.5,
   onend: function() {
     console.log('audio Finished!');
@@ -15,8 +15,8 @@ const sayIntroduction = new Howl({
 
 
 const parkSound = new Howl({
-  src: ['./sounds/Mountains/Mountains.mp3'],
-  volume: 0.3,
+  src: ['./sounds/Park/Park.mp3'],
+  volume: 0.5,
   loop: true
 
 });

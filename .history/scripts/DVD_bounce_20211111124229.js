@@ -8,7 +8,10 @@
 			bumpEdge: function () {}
     }, options);
     
-  
+    const bell2 = new Howl({
+      src: ['./sounds/Extra/bell2.wav'],
+      volume: 0.5
+    });
     
     
   
@@ -78,7 +81,7 @@ $(document).ready( function() {
 		speed: 300,
 		bumpEdge: function () {
       // play sound here???
-      
+      bell2.play();
 			var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
 			$('.marquee .logo').css('fill', newColor);
 		}
