@@ -115,18 +115,14 @@ const dog = new Howl({
 
 
   //alert("Document loaded, including graphics and embedded documents (like SVG)");
-<<<<<<< Updated upstream
-//   var a = document.getElementById("park-svg");
-=======
   var a = document.getElementById("Park");
->>>>>>> Stashed changes
 
   //get the inner DOM of alpha.svg
-//   var svgDoc = a.contentDocument;
+  var svgDoc = a.contentDocument;
   console.log($`svgDoc`);
-  let swing = document.getElementByID('swing');
-  let hopscotch = document.getElementByID('hopscotch');
-  let playing = document.getElementByID('playing');
+  var swing = svgDoc.getElementByID('swing');
+  var hopscotch = svgDoc.getElementByID('hopscotch');
+  var playing = svgDoc.getElementByID('playing');
   swing.addEventListener("onmouseenter", function(){  swingFX.play(); console.log("you hover on swing");}, false);
   hopscotch.addEventListener("onmouseenter", function(){ hopscotchFX.play(); console.log("you hover on hop");}, false);
   playing.addEventListener("onmouseenter", function(){ childrenFX.play(); console.log("you hover on kid");}, false);
