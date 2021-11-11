@@ -84,3 +84,6 @@ const bugsFX = new Howl({
     src: ['./sounds/Forest/Rain.mp3'],
     volume: 0.5
 });
+
+let jaguar = document.getElementById("jaguar");
+jaguar.addEventListener("onmouseenter", function(){  jaguarFX.play(); console.log("you hover on jaguar");}, false);
