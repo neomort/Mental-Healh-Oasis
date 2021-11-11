@@ -4,7 +4,7 @@ let still = document.getElementById('stationary');
 let float = document.getElementById('floating');
 
 const sayIntroduction = new Howl({
-  src: ['./sounds/Narration/Narration_Beach.mp3'],
+  src: ['./sounds/Narration/Narration_Forest.mp3'],
   volume: 0.5,
   onend: function() {
     console.log('audio Finished!');
@@ -15,7 +15,7 @@ const sayIntroduction = new Howl({
 
 
 const parkSound = new Howl({
-  src: ['./sounds/Beach/Beach.mp3'],
+  src: ['./sounds/Forest/Forest.mp3'],
   volume: 0.3,
   loop: true
 });
@@ -62,68 +62,61 @@ function displayFunction(){
   
 }
 
-//---------   BEACH audio  ------------
+//---------   FOREST audio  -----------
 
-let sandcastle = document.getElementById("sandcastle");
-let crab = document.getElementById("crab");
-let volleyball = document.getElementById("volleyball");
-let waves = document.getElementById("waves");
+// Bugs
+const bugsFX = new Howl({
+  src: ['./sounds/Forest/Bugs.mp3'],
+  volume: 0.5
+});
+// Guacamaya
+  const guacamayaFX = new Howl({
+  src: ['./sounds/Forest/Guacamaya.mp3'],
+  volume: 0.5
+});
+// Jaguar
+  const jaguarFX = new Howl({
+    src: ['./sounds/Forest/Jaguar.mp3'],
+    volume: 0.5
+});
+// Rain
+  const rainFX = new Howl({
+    src: ['./sounds/Forest/Rain.mp3'],
+    volume: 0.5
+});
 
-sandcastle.onmouseenter = function(){
+let jaguar = document.getElementById("jaguar");
+let guacamaya = document.getElementById("guacamaya");
+let bugs = document.getElementById("bugs");
+let rain = document.getElementById("rain");
+
+guacamaya.onmouseenter = function(){
 
   console.log("you hover on star");
- sandcasstleFX.play();
- volleyballFX.stop();
-  crabFX.stop();
-  wavesFX.stop();
-  
-};
-crab.onmouseenter = function(){
-
-  console.log("you hover on star");
-  crabFX.play();
-  volleyballFX.stop();
-  wavesFX.stop();
-  sandcasstleFX.stop();
+  guacamayaFX.play();
  
   
 };
-volleyball.onmouseenter = function(){
+bugs.onmouseenter = function(){
+
+  console.log("you hover on star");
+  bugsFX.play();
+ 
+  
+};
+jaguar.onmouseenter = function(){
 
   console.log("you hover on polygon");
-  volleyballFX.play();
-  wavesFX.stop();
-  crabFX.stop();
-  sandcasstleFX.stop();
+  jaguarFX.play();
   
 };
-waves.onmouseenter = function(){
+rain.onmouseenter = function(){
 
   console.log("you hover on triangle");
-  wavesFX.play();
-  volleyballFX.stop();
-  crabFX.stop();
-  sandcasstleFX.stop();
+  rainFX.play();
   
 };
 
-// Crab
-const crabFX = new Howl({
-  src: ['./sounds/Beach/Crab.mp3'],
-  volume: 0.5
-});
-//  Sand Castle
-const sandcastleFX = new Howl({
-  src: ['./sounds/Beach/Sand Castle.mp3'],
-  volume: 0.5
-});
-// Volleyball
-const volleyballFX = new Howl({
-  src: ['./sounds/Beach/Volleyball.mp3'],
-  volume: 0.5
-});
-//  Waves
-const wavesFX = new Howl({
-  src: ['./sounds/Beach/Waves.mp3'],
-  volume: 0.5
-});
+
+// jaguar.addEventListener("onmouseenter", function(){  jaguarFX.play(); console.log("you hover on jaguar");}, false);
+

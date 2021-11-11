@@ -4,7 +4,7 @@ let still = document.getElementById('stationary');
 let float = document.getElementById('floating');
 
 const sayIntroduction = new Howl({
-  src: ['./sounds/Narration/Narration_Beach.mp3'],
+  src: ['./sounds/Narration/Narration_Mountain.mp3'],
   volume: 0.5,
   onend: function() {
     console.log('audio Finished!');
@@ -15,9 +15,10 @@ const sayIntroduction = new Howl({
 
 
 const parkSound = new Howl({
-  src: ['./sounds/Beach/Beach.mp3'],
+  src: ['./sounds/Mountains/Mountains.mp3'],
   volume: 0.3,
   loop: true
+
 });
 
 function setRadio(){
@@ -62,68 +63,60 @@ function displayFunction(){
   
 }
 
-//---------   BEACH audio  ------------
+//---------   MOUNTAIN audio  ---------
 
-let sandcastle = document.getElementById("sandcastle");
-let crab = document.getElementById("crab");
-let volleyball = document.getElementById("volleyball");
-let waves = document.getElementById("waves");
+let birds = document.getElementById("birds");
+let rocks = document.getElementById("rocks");
+let wind = document.getElementById("wind");
+let waterfall = document.getElementById("waterfall");
 
-sandcastle.onmouseenter = function(){
-
-  console.log("you hover on star");
- sandcasstleFX.play();
- volleyballFX.stop();
-  crabFX.stop();
-  wavesFX.stop();
-  
-};
-crab.onmouseenter = function(){
+birds.onmouseenter = function(){
 
   console.log("you hover on star");
-  crabFX.play();
-  volleyballFX.stop();
-  wavesFX.stop();
-  sandcasstleFX.stop();
+ birdsFX.play();
  
   
 };
-volleyball.onmouseenter = function(){
+rocks.onmouseenter = function(){
+
+  console.log("you hover on star");
+  rocksFX.play();
+ 
+  
+};
+wind.onmouseenter = function(){
 
   console.log("you hover on polygon");
-  volleyballFX.play();
-  wavesFX.stop();
-  crabFX.stop();
-  sandcasstleFX.stop();
+  whistlingwindFX.play();
   
 };
-waves.onmouseenter = function(){
+waterfall.onmouseenter = function(){
 
   console.log("you hover on triangle");
-  wavesFX.play();
-  volleyballFX.stop();
-  crabFX.stop();
-  sandcasstleFX.stop();
+  waterfallFX.play();
+  whistlingwindFX.stop();
+  rocksFX.stop();
+  birdsFX.stop();
   
 };
 
-// Crab
-const crabFX = new Howl({
-  src: ['./sounds/Beach/Crab.mp3'],
+//  Birds
+const birdsFX = new Howl({
+  src: ['./sounds/Mountains/Birds.mp3'],
   volume: 0.5
 });
-//  Sand Castle
-const sandcastleFX = new Howl({
-  src: ['./sounds/Beach/Sand Castle.mp3'],
+//  Walking Over Rocks
+const walkingoverrocksFX = new Howl({
+  src: ['./sounds/Mountains/Walking Over Rocks.mp3'],
   volume: 0.5
 });
-// Volleyball
-const volleyballFX = new Howl({
-  src: ['./sounds/Beach/Volleyball.mp3'],
+//  Waterfall
+const waterfallFX = new Howl({
+  src: ['./sounds/Mountains/Waterfall.mp3'],
   volume: 0.5
 });
-//  Waves
-const wavesFX = new Howl({
-  src: ['./sounds/Beach/Waves.mp3'],
+//  Whistling Wind
+const whistlingwindFX = new Howl({
+  src: ['./sounds/Mountains/Whistling Wind.mp3'],
   volume: 0.5
 });
