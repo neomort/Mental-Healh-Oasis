@@ -86,4 +86,8 @@ const bugsFX = new Howl({
 });
 
 let jaguar = document.getElementById("jaguar");
-jaguar.addEventListener("onmouseenter", function(){  jaguarFX.play(); console.log("you hover on jaguar");}, false);
+// jaguar.addEventListener("onmouseenter", function(){  jaguarFX.play(); console.log("you hover on jaguar");}, false);
+jaguar.addEventListener('onmouseenter', () => {
+	jaguar.style.display = "none";
+  jaguarFX.play();
+});
