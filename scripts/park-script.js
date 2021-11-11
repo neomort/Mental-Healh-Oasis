@@ -120,10 +120,9 @@ const dog = new Howl({
   //get the inner DOM of alpha.svg
 //   var svgDoc = a.contentDocument;
   console.log($`svgDoc`);
-  var swing = document.getElementByID('swing');
-  var hopscotch = document.getElementByID('hopscotch');
-  var playing = document.getElementByID('playing');
+  let swing = document.getElementByID('swing');
+  let hopscotch = document.getElementByID('hopscotch');
+  let playing = document.getElementByID('playing');
   swing.addEventListener("onmouseenter", function(){  swingFX.play(); console.log("you hover on swing");}, false);
-  swing.addEventListener("click", function(){  swing.style.display = "none"; console.log("you hover on swing");}, false);
   hopscotch.addEventListener("onmouseenter", function(){ hopscotchFX.play(); console.log("you hover on hop");}, false);
   playing.addEventListener("onmouseenter", function(){ childrenFX.play(); console.log("you hover on kid");}, false);
