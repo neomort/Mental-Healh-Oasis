@@ -85,11 +85,6 @@ const bugsFX = new Howl({
     volume: 0.5
 });
 
-let jaguar = document.getElementById("jaguar");
-let guacamaya = document.getElementById("guacamaya");
-let bugs = document.getElementById("bugs");
-let rain = document.getElementById("rain");
-
 guacamaya.onmouseenter = function(){
 
   console.log("you hover on star");
@@ -110,14 +105,14 @@ jaguar.onmouseenter = function(){
   jaguarFX.play();
   
 };
-rain.onmouseenter = function(){
+playing.onmouseenter = function(){
 
   console.log("you hover on triangle");
   rainFX.play();
   
 };
 
-
+let jaguar = document.getElementById("jaguar");
 // jaguar.addEventListener("onmouseenter", function(){  jaguarFX.play(); console.log("you hover on jaguar");}, false);
 jaguar.addEventListener('onmouseenter', () => {
   jaguarFX.play();

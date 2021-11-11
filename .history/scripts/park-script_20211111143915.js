@@ -68,34 +68,28 @@ function displayFunction(){
 // let playing = document.getElementById('playing');
 
 
-swing.onmouseenter = function(){
+// swing.onmouseenter = function(){
 
-  console.log("you hover on star");
-  swingFX.play();
+//   console.log("you hover on star");
+//   swingFX.play();
  
   
-};
-hopscotch.onmouseenter = function(){
+// };
+// hopscotch.onmouseenter = function(){
 
-  console.log("you hover on polygon");
-  hopscotchFX.play();
+//   console.log("you hover on polygon");
+//   hopscotchFX.play();
   
-};
-playing.onmouseenter = function(){
+// };
+// playing.onmouseenter = function(){
 
-  console.log("you hover on triangle");
-  childrenFX.play();
+//   console.log("you hover on triangle");
+//   childrenFX.play();
   
-};
+// };
 
 
 //---------   PARK audio  -------------
-
- var a = document.getElementById("Park");
-console.log($`svgDoc`);
-let swing = document.getElementByID('swing');
-let hopscotch = document.getElementByID('hopscotch');
-let playing = document.getElementByID('playing');
 
 //  DOG
 const dog = new Howl({
@@ -124,12 +118,15 @@ const dog = new Howl({
 
 //   var a = document.getElementById("park-svg");
 
- 
+  // var a = document.getElementById("Park");
 
 
   //get the inner DOM of alpha.svg
 //   var svgDoc = a.contentDocument;
- 
-  // swing.addEventListener("onmouseenter", function(){  swingFX.play(); console.log("you hover on swing");}, false);
-  // hopscotch.addEventListener("onmouseenter", function(){ hopscotchFX.play(); console.log("you hover on hop");}, false);
-  // playing.addEventListener("onmouseenter", function(){ childrenFX.play(); console.log("you hover on kid");}, false);
+  console.log($`svgDoc`);
+  let swing = document.getElementByID('swing');
+  let hopscotch = document.getElementByID('hopscotch');
+  let playing = document.getElementByID('playing');
+  swing.addEventListener("onmouseenter", function(){  swingFX.play(); console.log("you hover on swing");}, false);
+  hopscotch.addEventListener("onmouseenter", function(){ hopscotchFX.play(); console.log("you hover on hop");}, false);
+  playing.addEventListener("onmouseenter", function(){ childrenFX.play(); console.log("you hover on kid");}, false);

@@ -90,8 +90,6 @@ playing.onmouseenter = function(){
 
 
 //---------   PARK audio  -------------
-
- var a = document.getElementById("Park");
 console.log($`svgDoc`);
 let swing = document.getElementByID('swing');
 let hopscotch = document.getElementByID('hopscotch');
@@ -124,7 +122,7 @@ const dog = new Howl({
 
 //   var a = document.getElementById("park-svg");
 
- 
+  // var a = document.getElementById("Park");
 
 
   //get the inner DOM of alpha.svg
