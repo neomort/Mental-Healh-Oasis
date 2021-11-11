@@ -49,6 +49,7 @@ With all the materials ready, we all set to construct our web page. We spent cou
 - SVG's took longer than we expected to. Because we wanted most of our work to be original, we decided we were going to do them ourseleves. However, we now realize this was valuable time that we did not really had to spare. 
 - We perceive a sound very differently when it is solo vs when it is in a soundscape. We had to edit, and re edit many pieces to make sure everything sounded good and macged the vibe. 
 - There were some files in which we could not, despite millions of attempts, remove the noise. 
+- Playing the sounds of the elements using SVG ids.
 
 ## Reflection
 This project had a very high learning curve for our group, as we encountered challenges and tasks that we were not completely familiar wit. However, we are very proud of our final product, and believe it does a really good job in creating this escape we so often talk about. We worked really hard to accomplish our initial plan and fulfil our expectations, and we believe we did so. Despite having slight rough edges and things to improve on for a further assignment, we are sure we made our best effort in experimenting with, familiarizing ourselves with, and inlcuding the resources give to us during the course. We are very proud of the Mental Health Oasis and sincerely hope you enjoy it as much as we did building it.
